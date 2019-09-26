@@ -1,0 +1,206 @@
+
+.register-box {
+    display: inline-block;
+    width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    max-width: 430px;
+
+}
+.register-container{
+    text-align: center;
+    background: linear-gradient(to bottom right, #FEEDF6, #FCF0E2);
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.register-title {
+    font-size: 32px;
+    margin-top: 15px;
+    color: #535766;
+    margin-bottom: 1rem;
+}
+
+.register-button-info-text {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #94969F;
+    font-size: 12px;
+}
+.register-info-text {
+    color: #94969F;
+    font-size: 12px;
+}
+
+.register-button-info-text>p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+.register-button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 162px;
+    padding-left: 18%;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    color: #696B79;
+    height: 50px;
+    border: 1px solid #BFC0C6;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: left;
+}
+.register-facebook {
+    margin-right: 15px;
+    margin-bottom: 0px;
+
+}
+.register-fb-logo {
+    background-position: -256px 0;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+.register-gplus-logo{
+    background-position: -256px 0;
+    width: 0px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+.register-button {
+    display: inline-block;
+    margin: 0 auto;
+    width: 49%;
+    padding-left: 18%;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    color: #696B79;
+    height: 50px;
+    border: 1px solid #BFC0C6;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+    cursor: pointer;
+}
+.register-sprite {
+    display: inline-block;
+}
+.register-button-container {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.register-register-form {
+    margin: 0px;
+}
+.register-user-input {
+    display: block;
+    color: #282C3F;
+    font-size: 15px;
+    padding-right: 40px;
+    width: 100%;
+    border: 0px;
+    padding: 15px;
+}
+.register-gender {
+    position: relative;
+    border: 0px;
+    font-size: 13px;
+    color: #696E79;
+    text-align: left;
+    padding: 15px;
+    margin: 0px;
+    border-top: 1px solid #D5D6D9;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+.register-gender-radio {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.register-gender-label {
+    cursor: pointer;
+    font-weight: 500;
+}
+.register-gender-title {
+    display: inline;
+    font-weight: 500;
+}
+.legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+.register-gender {
+    position: relative;
+    font-weight: bold;
+    border: 0px;
+    font-size: 15px;
+    color: #696E79;
+    text-align: left;
+}
+.register-register-button-container {
+    padding: 10px 20px;
+    margin: 0px;
+    border: 0px;
+}
+.register-register-button {
+    background-color: #FF527B;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    border: 0px;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Whitney;
+}
+.register-login-link {
+    text-align: center;
+}
+.register-info-text {
+    color: #94969F;
+    font-size: 12px;
+}
+.register-create-account-link {
+    margin-left: 5px;
+}
+.register-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF527B;
+    padding: 10px 0px;
+    font-size: 13px;
+}

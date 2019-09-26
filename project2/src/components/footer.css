@@ -1,0 +1,73 @@
+.footer1 {
+    position: relative;
+    z-index: 5;
+    padding: 30px 0px 40px;
+    background: rgb(250, 251, 252);
+  }
+  .desktop-shopLinks >ul , .desktop-usefulLinks > ul{
+    list-style-type: none;
+  }
+  .desktop-shopLinks > ul, .desktop-usefulLinks > ul {
+    color: #696B79;
+    display: block;
+    font-size: 15px;
+    font-family: Whitney-SemiBold, Whitney;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: 25px;
+  }
+  .desktop-superscript {
+      padding: 0px 5px;
+      background: red;
+      border-radius: 90px;
+      color: white;
+      font-weight: 900;
+      margin: 0px 0px 0px 5px;
+      font-size: 12px;
+  }
+  .desktop-androidDownLink, .desktop-iOSDownLink {
+    margin-right: 10px;
+    height: 42px;
+  }
+  .desktop-appExperience  {
+    font-family: Whitney-SemiBold, Whitney;
+    font-weight: 500;
+    color: #696B79;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    margin: 0px 0px 0px 60px;
+    padding-bottom: 25px;
+    
+  }
+  .container{
+    line-height: 30px;
+  }
+  .desktop-original {
+      display: inline-block;
+      margin-left: -10px;
+      margin-right: 10px;
+  }
+  .sprites-original, .sprites-return, .sprites-return {
+    background-position: -421.5px 0px;
+    width: 47.5px;
+    height: 40px;
+  }
+  
+  .desktop-promises {
+      width: 250px;
+      float: left;
+  }
+  /* .desktop-shopLinks> a{
+  color: #696B79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+.desktop-shopLinks > a:nth-child(2){
+  padding-top: 14px;
+} */

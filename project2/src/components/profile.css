@@ -1,0 +1,129 @@
+.desktop-userActions {
+    width: 250px;
+    left: -137.5px;
+    top: 62px;
+    /* position: absolute; */
+    padding: 25px 20px 15px 20px;
+    z-index: 3;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+    -webkit-transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+    background-color: #FFFFFF;
+    color: #3E4152;
+    border: 1px solid #F5F5F6;
+    visibility: hidden;
+    opacity: 0;
+    margin: -2px 0px; 
+}
+
+.desktop-userIconsContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    padding: 0px 12px 0px 17px;
+    /* position: relative; */
+    display: flex;
+    height: 40px;
+}
+.desktop-user {
+    /* position: relative; */
+    height: 60px;
+    margin: 0px 20px 0px 15px;
+}
+.desktop-user:hover, .desktop-userActions {
+    visibility: visible;
+    opacity: 1;
+}
+.desktop-userActions {
+    width: 280px;
+    left: -137.5px;
+    top: 62px;
+    /* position: absolute; */
+    padding: 25px 20px 15px 40px;
+    z-index: 3;
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+    background-color: #FFFFFF;
+    color: #3E4152;
+    border: 1px solid #F5F5F6;
+    visibility: hidden;
+    opacity: 0;
+    margin: -2px 0px;
+}
+.desktop-infoTitle {
+    font-family: Whitney-SemiBold, Whitney;
+    font-weight: 500;
+    height: 20px;
+    font-size: 14px;
+}
+.desktop-user:hover, .desktop-userActions {
+    visibility: visible;
+    opacity: 1;
+}
+.desktop-getUserInLinks {
+    border: none;
+}
+.desktop-getInLinks {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    border-top: 1px solid #EAEAEC;
+}
+.desktop-linkButton:nth-child(2) {
+    margin: 0px 0px 0px 13px;
+}
+.desktop-linkButton {
+    display: inline-block;
+    padding: 18px 0px;
+    width: 34%;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid #EAEAEC;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ff3f6c;
+    font-weight: 500;
+    font-family: Whitney-SemiBold, Whitney;
+}
+a {
+    text-decoration: none;
+    color: #282C3F;
+}
+.desktop-infoSection {
+    margin: 0;
+    cursor: pointer;
+    padding: 0px 0px 10px 0px !important;
+    word-break: 10%;
+}
+.desktop-superscriptTag {
+    width: 25px;
+    height: 7px;
+    padding: 5px 0 0 5px;
+    background: #ff3f6c;
+    border: 1px solid #ff3f6c !important;
+    color: white;
+    font-weight: 900;
+    margin: -6px 0px -10px 10px;
+    font-size: 10px;
+    
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.desktop-infoEmail {
+    font-family: Whitney;
+    height: 14px;
+    font-size: 14px;
+    color: #282C3F;
+    width: 300%;
+}
+.desktop-info {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3E4152;
+}

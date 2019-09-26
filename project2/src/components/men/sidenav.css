@@ -1,0 +1,42 @@
+.side {
+    height: 100%;
+    width: 160px;
+
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left:40px;
+  }
+  
+  .side input {
+    padding: 6px 8px 86px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+   
+  }
+  
+  .side input :hover {
+    color: black;
+  }
+
+  .row{
+      content :"";
+      display:table;
+      clear :both;
+  }
+  .navcolumn{
+      float:left;
+     
+      padding:10px;
+      height:600px;
+    
+  }
+  .gridcolumn{
+    float:left;
+    width:75%;
+    height:600px;
+}
